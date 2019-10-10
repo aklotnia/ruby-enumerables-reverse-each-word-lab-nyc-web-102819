@@ -4,3 +4,11 @@ def reverse_each_word(sent)
   brand_new_sentence = rev_array.join(" ")
   brand_new_sentence
 end
+
+
+rev_array = []
+sent_array.each do |word|
+  rev_word = word.reverse
+  rev_array << rev_word
+end
+  
